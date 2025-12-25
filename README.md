@@ -24,6 +24,10 @@ WITH THIS COMMAND:
 ```batch
 python setupfractionals.py build_ext --inplace
 ```
+or the same but with python as python3:
+```batch
+python3 setupfractionals.py build_ext --inplace
+```
 the first mode functions starts with prefix: p*, while second mode ones
 start with prefix: c*, then after the first prefix the second prefix is the
 function type if it was for timestamping it would be (p/c t*) or time diff.
