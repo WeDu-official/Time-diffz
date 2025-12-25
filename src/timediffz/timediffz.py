@@ -1,8 +1,8 @@
 import warnings
 try: import td1
-except Exception: warnings.warn(f"time_diffz 1.0 (fractions mode) failed to load correctly :(, using any fractions mode related function WOULD give an error and fall because of this, the error")
+except Exception: warnings.warn(f"timediffz 1.0.0.2 (fractions mode) failed to load correctly :(, using any fractions mode related function WOULD give an error and fall because of this, the error")
 try: import td2
-except Exception: warnings.warn(f"time_diffz 1.0 (fractionals mode) failed to load correctly :(, using any fractionals mode related function WOULD give an error and fall because of this, the error")
+except Exception: warnings.warn(f"timediffz 1.0.0.2 (fractionals mode) failed to load correctly :(, using any fractionals mode related function WOULD give an error and fall because of this, the error")
 def pdiff (s,e,tz_s=0,tz_e=0,unit_factor=1,count_ls_param=True,UTDLS=False,input_utc=True,output_tt=False):
     """this function give the difference between the two dates(s and e) in unit_factor, fractions version
     S: is the first date(starting date) and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers

@@ -1,4 +1,4 @@
-#THIS IS time_diffz 1.0 (fractionals mode) - made by wedu_official
+#THIS IS timediffz 1.0.0.2 (fractionals mode) - made by wedu_official
 import sys
 # noinspection PyUnresolvedReferences
 from fractionals import Fraction #cython

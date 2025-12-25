@@ -1,14 +1,14 @@
 <img width="504" alt="time_diffz-high-resolution-logo-transparent" src="https://github.com/user-attachments/assets/6d0285dd-6cdd-4ea1-804b-561b98b0bac2" />
 
 
-**Time_diffz** a library for timestamps and differences between dates
+**timediffz** a library for timestamps and differences between dates
 
-**NOTE: Time_diffz ONLY work in almost any operating system(\*1) which can support python 3.10 and above**
+**NOTE: timediffz ONLY work in almost any operating system(\*1) which can support python 3.10 and above**
 
-**\*1: Time_diffz wasn't tested on any operating system expect arch linux 
+**\*1: timediffz wasn't tested on any operating system expect arch linux 
 but mostly it can work on windows being that the library does not have any platform specific needs**
 
-**Time_diffz** is an EXTREMELY ACCURATE timestamper and in calculating the differences between dates, IT DOES NOT USE ANY APPROXIMATIONS CALCULATES
+**timediffz** is an EXTREMELY ACCURATE timestamper and in calculating the differences between dates, IT DOES NOT USE ANY APPROXIMATIONS CALCULATES
 EVERYTHING EXACTLY AS IT IS and nearly no for/while loops at all to provide fast performance(literally you would need less than 100 microseconds in somecases to get the amount
 of months between the year 2025 and the end of the universe(year one googol), and it uses fractions based numbers to keep the numbers
 exact no floating point precision loss, and it has been made for scientists and systems as the most accurate system for its own job possible,
@@ -22,11 +22,11 @@ IS EVEN FASTER WHICH IS THE TB2 BUT IT NEEDS ALL TB1'S REQUIREMENTS PLUS SETUPTO
 AND CYTHON AND INSTALLING GMP ON YOUR COMPUTER AND BUILDING THE CYTHON SETUP FILE
 WITH THIS COMMAND:
 ```batch
-python setupfractionals.py build_ext --inplace
+cd (full path of folder where setupfractionals.py is in, found in the library files) & python setupfractionals.py build_ext --inplace
 ```
 or the same but with python as python3:
 ```batch
-python3 setupfractionals.py build_ext --inplace
+cd (full path of folder where setupfractionals.py is in, found in the library files) & python3 setupfractionals.py build_ext --inplace
 ```
 the first mode functions starts with prefix: p*, while second mode ones
 start with prefix: c*, then after the first prefix the second prefix is the
