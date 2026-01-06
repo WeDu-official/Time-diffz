@@ -171,7 +171,7 @@ def pdmonths(s, e, tz_s=0, tz_e=0,month_unit=0, leap_year=False,input_utc=True, 
         tz_s: is the timezone where the S date was measured in by default library is set to use greenwich(england) time, and it's an integer value
         tz_e: is the same as tz_s in everything, but it's for E date
         month_unit: is what month you chose to be your unit, like how many junes or how many octobers, it's value corresponds to month it represents, it's an integer
-        leap_year: if the year is a leap yest or not , useful to determine February's value
+        leap_year: if the year is a leap year or not , useful to determine February's value
         input_utc: this one is by default true, which is when your input is in the UTC system, if it's not make this parameter false
         and your dates would be considered as TAI input, boolean
         output_tt: this one is by default false, which is when you wanna your output to be in TT, boolean
@@ -191,7 +191,7 @@ def cdmonths(s, e, tz_s=0, tz_e=0,month_unit=0, leap_year=False,input_utc=True, 
             tz_s: is the timezone where the S date was measured in by default library is set to use greenwich(england) time, and it's an integer value
             tz_e: is the same as tz_s in everything, but it's for E date
             month_unit: is what month you chose to be your unit, like how many junes or how many octobers, it's value corresponds to month it represents, it's an integer
-            leap_year: if the year is a leap yest or not , useful to determine February's value
+            leap_year: if the year is a leap year or not , useful to determine February's value
             input_utc: this one is by default true, which is when your input is in the UTC system, if it's not make this parameter false
             and your dates would be considered as TAI input, boolean
             output_tt: this one is by default false, which is when you wanna your output to be in TT, boolean
@@ -210,7 +210,7 @@ def pdyears(s, e, tz_s=0, tz_e=0,leap_year=None, uniform_year=False, tropical_ye
                 E: is the second date(ending date) and it has same format and data type as S
                 tz_s: is the timezone where the S date was measured in by default library is set to use greenwich(england) time, and it's an integer value
                 tz_e: is the same as tz_s in everything, but it's for E date
-                leap_year: if the year unit is a leap yest or not , boolean value
+                leap_year: if the year unit is a leap year or not , boolean value
                 uniform_year: if the year unit is a continuous scale Gregorian year, boolean value
                 tropical_year: if the year unit is a tropical years, boolean vale
                 custom_year: if not none it would use a custom made year unit, integer value
@@ -229,7 +229,7 @@ def cdyears(s, e, tz_s=0, tz_e=0,leap_year=None, uniform_year=False, tropical_ye
                 E: is the second date(ending date) and it has same format and data type as S
                 tz_s: is the timezone where the S date was measured in by default library is set to use greenwich(england) time, and it's an integer value
                 tz_e: is the same as tz_s in everything, but it's for E date
-                leap_year: if the year unit is a leap yest or not , boolean value
+                leap_year: if the year unit is a leap year or not , boolean value
                 uniform_year: if the year unit is a continuous scale Gregorian year, boolean value
                 tropical_year: if the year unit is a tropical years, boolean vale
                 custom_year: if not none it would use a custom made year unit, integer value
@@ -248,7 +248,7 @@ def pddecades(s, e, tz_s=0, tz_e=0,leap_year=None, uniform_year=False, tropical_
                     E: is the second date(ending date) and it has same format and data type as S
                     tz_s: is the timezone where the S date was measured in by default library is set to use greenwich(england) time, and it's an integer value
                     tz_e: is the same as tz_s in everything, but it's for E date
-                    leap_year: if the year unit is a leap yest or not , boolean value
+                    leap_year: if the year unit is a leap year or not , boolean value
                     uniform_year: if the year unit is a continuous scale Gregorian year, boolean value
                     tropical_year: if the year unit is a tropical years, boolean vale
                     custom_year: if not none it would use a custom made year unit, integer value
@@ -267,7 +267,7 @@ def cddecades(s, e, tz_s=0, tz_e=0,leap_year=None, uniform_year=False, tropical_
                     E: is the second date(ending date) and it has same format and data type as S
                     tz_s: is the timezone where the S date was measured in by default library is set to use greenwich(england) time, and it's an integer value
                     tz_e: is the same as tz_s in everything, but it's for E date
-                    leap_year: if the year unit is a leap yest or not , boolean value
+                    leap_year: if the year unit is a leap year or not , boolean value
                     uniform_year: if the year unit is a continuous scale Gregorian year, boolean value
                     tropical_year: if the year unit is a tropical years, boolean vale
                     custom_year: if not none it would use a custom made year unit, integer value
@@ -286,7 +286,7 @@ def pdcenturies(s, e, tz_s=0, tz_e=0,leap_year=None, uniform_year=False, tropica
                     E: is the second date(ending date) and it has same format and data type as S
                     tz_s: is the timezone where the S date was measured in by default library is set to use greenwich(england) time, and it's an integer value
                     tz_e: is the same as tz_s in everything, but it's for E date
-                    leap_year: if the year unit is a leap yest or not , boolean value
+                    leap_year: if the year unit is a leap year or not , boolean value
                     uniform_year: if the year unit is a continuous scale Gregorian year, boolean value
                     tropical_year: if the year unit is a tropical years, boolean vale
                     custom_year: if not none it would use a custom made year unit, integer value
@@ -305,7 +305,7 @@ def cdcenturies(s, e, tz_s=0, tz_e=0,leap_year=None, uniform_year=False, tropica
                     E: is the second date(ending date) and it has same format and data type as S
                     tz_s: is the timezone where the S date was measured in by default library is set to use greenwich(england) time, and it's an integer value
                     tz_e: is the same as tz_s in everything, but it's for E date
-                    leap_year: if the year unit is a leap yest or not , boolean value
+                    leap_year: if the year unit is a leap year or not , boolean value
                     uniform_year: if the year unit is a continuous scale Gregorian year, boolean value
                     tropical_year: if the year unit is a tropical years, boolean vale
                     custom_year: if not none it would use a custom made year unit, integer value
@@ -324,7 +324,7 @@ def pdmillennia(s, e, tz_s=0, tz_e=0,leap_year=None, uniform_year=False, tropica
                         E: is the second date(ending date) and it has same format and data type as S
                         tz_s: is the timezone where the S date was measured in by default library is set to use greenwich(england) time, and it's an integer value
                         tz_e: is the same as tz_s in everything, but it's for E date
-                        leap_year: if the year unit is a leap yest or not , boolean value
+                        leap_year: if the year unit is a leap year or not , boolean value
                         uniform_year: if the year unit is a continuous scale Gregorian year, boolean value
                         tropical_year: if the year unit is a tropical years, boolean vale
                         custom_year: if not none it would use a custom made year unit, integer value
@@ -343,7 +343,7 @@ def cdmillennia(s, e, tz_s=0, tz_e=0,leap_year=None, uniform_year=False, tropica
                         E: is the second date(ending date) and it has same format and data type as S
                         tz_s: is the timezone where the S date was measured in by default library is set to use greenwich(england) time, and it's an integer value
                         tz_e: is the same as tz_s in everything, but it's for E date
-                        leap_year: if the year unit is a leap yest or not , boolean value
+                        leap_year: if the year unit is a leap year or not , boolean value
                         uniform_year: if the year unit is a continuous scale Gregorian year, boolean value
                         tropical_year: if the year unit is a tropical years, boolean vale
                         custom_year: if not none it would use a custom made year unit, integer value
@@ -362,59 +362,466 @@ def pdsubseconds(s,e,tz_s=0,tz_e=0,subunit=10**6,count_ls_param=True,UTDLS=False
         E: is the second date(ending date) and it has same format and data type as S
         tz_s: is the timezone where the S date was measured in by default library is set to use greenwich(england) time, and it's an integer value
         tz_e: is the same as tz_s in everything, but it's for E date
-        subunit: basically is the number that seconds would be divided upon to get difference in as specific unit like 10**6 for micro or 10**9 nano seconds, the default is 10**6 and it's an
+        subunit: basically is the number that seconds would be divided upon to get difference in as specific unit like 10**6 for micro or 10**9 nano seconds, the default is 10**6 and it's an integer
         count_ls_param: enabling this would count leap-seconds, boolean
         UTDLS: enabling this is useless in all cases except when count_ls_param is True, and it would fetch a list of updated leap seconds from the internet, boolean
         input_utc: this one is by default true, which is when your input is in the UTC system, if it's not make this parameter false
         and your dates would be considered as TAI input, boolean
         output_tt: this one is by default false, which is when you wanna your output to be in TT, boolean
         """
-    return td1._time_difference(s, e, tz_s=tz_s, tz_e=tz_e, unit_factor=subunit, input_utc=input_utc, count_ls_param=count_ls_param, UTDLS=UTDLS, output_tt=output_tt)
+    return td1._time_difference(s, e, tz_s=tz_s, tz_e=tz_e, unit_factor=1, input_utc=input_utc, count_ls_param=count_ls_param, UTDLS=UTDLS, output_tt=output_tt)/(1/subunit)
 def cdsubseconds(s,e,tz_s=0,tz_e=0,subunit=10**6,count_ls_param=True,UTDLS=False,input_utc=True,output_tt=False):
     """this function give the difference between the two dates(s and e) in subseconds, fractionals version
             S: is the first date(starting date) and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
             E: is the second date(ending date) and it has same format and data type as S
             tz_s: is the timezone where the S date was measured in by default library is set to use greenwich(england) time, and it's an integer value
             tz_e: is the same as tz_s in everything, but it's for E date
-            subunit: basically is the number that seconds would be divided upon to get difference in as specific unit like 10**6 for micro or 10**9 nano seconds, the default is 10**6 and it's an
+            subunit: basically is the number that seconds would be divided upon to get difference in as specific unit like 10**6 for micro or 10**9 nano seconds, the default is 10**6 and it's an integer
             count_ls_param: enabling this would count leap-seconds, boolean
             UTDLS: enabling this is useless in all cases except when count_ls_param is True, and it would fetch a list of updated leap seconds from the internet, boolean
             input_utc: this one is by default true, which is when your input is in the UTC system, if it's not make this parameter false
             and your dates would be considered as TAI input, boolean
             output_tt: this one is by default false, which is when you wanna your output to be in TT, boolean
             """
-    return td2._time_difference(s, e, tz_s=tz_s, tz_e=tz_e, unit_factor=subunit, input_utc=input_utc, count_ls_param=count_ls_param, UTDLS=UTDLS, output_tt=output_tt)
-def ptseconds(d,count_ls_param=True, UTDLS=False, input_utc=True,unix_epoch=False,custom_epoch_as_utc=True,custom_epoch_as_tt=False,custom_epoch=None,input_tt=False,output_tt=False): return td1._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt)
-def ctseconds(d,count_ls_param=True, UTDLS=False, input_utc=True,unix_epoch=False,custom_epoch_as_utc=True,custom_epoch_as_tt=False,custom_epoch=None,input_tt=False,output_tt=False): return td2._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt)
-def ptimestamp(d,count_ls_param=True, UTDLS=False, input_utc=True,unix_epoch=False,custom_epoch_as_utc=True,custom_epoch_as_tt=False,custom_epoch=None,input_tt=False,output_tt=False): return td1._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt)
-def ctimestamp(d,count_ls_param=True, UTDLS=False, input_utc=True,unix_epoch=False,custom_epoch_as_utc=True,custom_epoch_as_tt=False,custom_epoch=None,input_tt=False,output_tt=False): return td2._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt)
-def ptminutes(d,count_ls_param=True, UTDLS=False, input_utc=True,unix_epoch=False,custom_epoch_as_utc=True,custom_epoch_as_tt=False,custom_epoch=None,input_tt=False,output_tt=False): return td1._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt)/60
-def ctminutes(d,count_ls_param=True, UTDLS=False, input_utc=True,unix_epoch=False,custom_epoch_as_utc=True,custom_epoch_as_tt=False,custom_epoch=None,input_tt=False,output_tt=False): return td2._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt)/60
-def pthours(d,count_ls_param=True, UTDLS=False, input_utc=True,unix_epoch=False,custom_epoch_as_utc=True,custom_epoch_as_tt=False,custom_epoch=None,input_tt=False,output_tt=False): return td1._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt)/3600
-def cthours(d,count_ls_param=True, UTDLS=False, input_utc=True,unix_epoch=False,custom_epoch_as_utc=True,custom_epoch_as_tt=False,custom_epoch=None,input_tt=False,output_tt=False): return td2._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt)/3600
-def pcdays(d,count_ls_param=True, UTDLS=False, input_utc=True,unix_epoch=False,custom_epoch_as_utc=True,custom_epoch_as_tt=False,custom_epoch=None,input_tt=False,output_tt=False): return td1._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt)/86400
-def ctdays(d,count_ls_param=True, UTDLS=False, input_utc=True,unix_epoch=False,custom_epoch_as_utc=True,custom_epoch_as_tt=False,custom_epoch=None,input_tt=False,output_tt=False): return td2._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt)/86400
-def ptweeks(d,count_ls_param=True, UTDLS=False, input_utc=True,unix_epoch=False,custom_epoch_as_utc=True,custom_epoch_as_tt=False,custom_epoch=None,input_tt=False,output_tt=False): return td1._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt)/(86400 * 7)
-def ctweeks(d,count_ls_param=True, UTDLS=False, input_utc=True,unix_epoch=False,custom_epoch_as_utc=True,custom_epoch_as_tt=False,custom_epoch=None,input_tt=False,output_tt=False): return td2._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt)/(86400 * 7)
-def ptmonths(d,count_ls_param=True, UTDLS=False, input_utc=True,unix_epoch=False,custom_epoch_as_utc=True,custom_epoch_as_tt=False,custom_epoch=None,input_tt=False,output_tt=False,month_unit=0,use_date_in_leapyears_checking=False,leap_year=False,year_for_leapyears_checking=None): return td1._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt) / td1._get_month_seconds(d[0], d[1], month_unit, td1.is_leap((d[0] if use_date_in_leapyears_checking else year_for_leapyears_checking), leap_year))
-def ctmonths(d,count_ls_param=True, UTDLS=False, input_utc=True,unix_epoch=False,custom_epoch_as_utc=True,custom_epoch_as_tt=False,custom_epoch=None,input_tt=False,output_tt=False,month_unit=0,use_date_in_leapyears_checking=False,leap_year=False,year_for_leapyears_checking=None): return td2._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt) / td2._get_month_seconds(d[0], d[1], month_unit, td2.is_leap((d[0] if use_date_in_leapyears_checking else year_for_leapyears_checking), leap_year))
-def ptyears(d, count_ls_param=True, UTDLS=False, input_utc=True, unix_epoch=False, custom_epoch_as_utc=True, custom_epoch_as_tt=False,custom_epoch=None, input_tt=False, output_tt=False,uniform_year=False, tropical_year=False, custom_year=None, year_for_leapyear_checking=None): return td1._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt)/ td1._seconds_in_year(d[0] if year_for_leapyear_checking is None else year_for_leapyear_checking, uniform_year=uniform_year, tropical_year=tropical_year, custom_year=custom_year)
-def ctyears(d, count_ls_param=True, UTDLS=False, input_utc=True, unix_epoch=False, custom_epoch_as_utc=True, custom_epoch_as_tt=False,custom_epoch=None, input_tt=False, output_tt=False,uniform_year=False, tropical_year=False, custom_year=None, year_for_leapyear_checking=None): return td2._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt)/ td2._seconds_in_year(d[0] if year_for_leapyear_checking is None else year_for_leapyear_checking, uniform_year=uniform_year, tropical_year=tropical_year, custom_year=custom_year)
-def ptdecades(d, count_ls_param=True, UTDLS=False, input_utc=True, unix_epoch=False, custom_epoch_as_utc=True, custom_epoch_as_tt=False,custom_epoch=None, input_tt=False, output_tt=False,uniform_year=False, tropical_year=False, custom_year=None, year_for_leapyear_checking=None): return (
+    return td2._time_difference(s, e, tz_s=tz_s, tz_e=tz_e, unit_factor=1, input_utc=input_utc, count_ls_param=count_ls_param, UTDLS=UTDLS, output_tt=output_tt)/(1/subunit)
+def ptimestamp(d,unit_factor=1,count_ls_param=True, UTDLS=False, input_utc=True,unix_epoch=False,custom_epoch_as_utc=True,custom_epoch_as_tt=False,custom_epoch=None,input_tt=False,output_tt=False):
+    """this function give the date as timestamp, fractions version
+    d: is the date and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    unit_factor: this is the unit to be used, basically the difference between dates would be done in seconds , so you can if you want to get result in minutes for example
+    to do that , make it into 60 and the difference would be divided by 60 leading to result being in the unit of minutes, and it's an integer
+    count_ls_param: enabling this would count leap-seconds, boolean
+    UTDLS: enabling this is useless in all cases except when count_ls_param is True, and it would fetch a list of updated leap seconds from the internet, boolean
+    input_utc: this one is by default true, which is when your input is in the UTC system, if it's not make this parameter false
+    and your dates would be considered as TAI input, boolean
+    unix_epoch: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to unix epoch
+    custom_epoch_as_utc: this option is True by default and it's a boolean value setting it as false would give you timestamp relative to custom epoch as TAI
+    custom_epoch_as_tt: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to custom epoch as TT
+    custom_epoch: this option is None by default and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    input_tt: this one is by default false, which is when you wanna your input to be in TT, boolean
+    output_tt: this one is by default false, which is when you wanna your output to be in TT, boolean
+    """
+    return td1._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt) / unit_factor
+def ctimestamp(d,unit_factor=1,count_ls_param=True, UTDLS=False, input_utc=True,unix_epoch=False,custom_epoch_as_utc=True,custom_epoch_as_tt=False,custom_epoch=None,input_tt=False,output_tt=False):
+    """this function give the date as timestamp, fractionals version
+    d: is the date and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    unit_factor: this is the unit to be used, basically the difference between dates would be done in seconds , so you can if you want to get result in minutes for example
+    to do that , make it into 60 and the difference would be divided by 60 leading to result being in the unit of minutes, and it's an integer
+    count_ls_param: enabling this would count leap-seconds, boolean
+    UTDLS: enabling this is useless in all cases except when count_ls_param is True, and it would fetch a list of updated leap seconds from the internet, boolean
+    input_utc: this one is by default true, which is when your input is in the UTC system, if it's not make this parameter false
+    and your dates would be considered as TAI input, boolean
+    unix_epoch: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to unix epoch
+    custom_epoch_as_utc: this option is True by default and it's a boolean value setting it as false would give you timestamp relative to custom epoch as TAI
+    custom_epoch_as_tt: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to custom epoch as TT
+    custom_epoch: this option is None by default and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    input_tt: this one is by default false, which is when you wanna your input to be in TT, boolean
+    output_tt: this one is by default false, which is when you wanna your output to be in TT, boolean
+    """
+    return td2._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt) / unit_factor
+def ptseconds(d,count_ls_param=True, UTDLS=False, input_utc=True,unix_epoch=False,custom_epoch_as_utc=True,custom_epoch_as_tt=False,custom_epoch=None,input_tt=False,output_tt=False):
+    """this function give the date as timestamp, fractions version
+    d: is the date and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    count_ls_param: enabling this would count leap-seconds, boolean
+    UTDLS: enabling this is useless in all cases except when count_ls_param is True, and it would fetch a list of updated leap seconds from the internet, boolean
+    input_utc: this one is by default true, which is when your input is in the UTC system, if it's not make this parameter false
+    and your dates would be considered as TAI input, boolean
+    unix_epoch: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to unix epoch
+    custom_epoch_as_utc: this option is True by default and it's a boolean value setting it as false would give you timestamp relative to custom epoch as TAI
+    custom_epoch_as_tt: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to custom epoch as TT
+    custom_epoch: this option is None by default and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    input_tt: this one is by default false, which is when you wanna your input to be in TT, boolean
+    output_tt: this one is by default false, which is when you wanna your output to be in TT, boolean
+    """
+    return td1._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt)
+def ctseconds(d,count_ls_param=True, UTDLS=False, input_utc=True,unix_epoch=False,custom_epoch_as_utc=True,custom_epoch_as_tt=False,custom_epoch=None,input_tt=False,output_tt=False):
+    """this function give the date as timestamp, fractionals version
+    d: is the date and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    count_ls_param: enabling this would count leap-seconds, boolean
+    UTDLS: enabling this is useless in all cases except when count_ls_param is True, and it would fetch a list of updated leap seconds from the internet, boolean
+    input_utc: this one is by default true, which is when your input is in the UTC system, if it's not make this parameter false
+    and your dates would be considered as TAI input, boolean
+    unix_epoch: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to unix epoch
+    custom_epoch_as_utc: this option is True by default and it's a boolean value setting it as false would give you timestamp relative to custom epoch as TAI
+    custom_epoch_as_tt: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to custom epoch as TT
+    custom_epoch: this option is None by default and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    input_tt: this one is by default false, which is when you wanna your input to be in TT, boolean
+    output_tt: this one is by default false, which is when you wanna your output to be in TT, boolean
+    """
+    return td2._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt)
+def ptminutes(d,count_ls_param=True, UTDLS=False, input_utc=True,unix_epoch=False,custom_epoch_as_utc=True,custom_epoch_as_tt=False,custom_epoch=None,input_tt=False,output_tt=False):
+    """this function give the date as timestamp in minutes, fractions version
+    d: is the date and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    count_ls_param: enabling this would count leap-seconds, boolean
+    UTDLS: enabling this is useless in all cases except when count_ls_param is True, and it would fetch a list of updated leap seconds from the internet, boolean
+    input_utc: this one is by default true, which is when your input is in the UTC system, if it's not make this parameter false
+    and your dates would be considered as TAI input, boolean
+    unix_epoch: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to unix epoch
+    custom_epoch_as_utc: this option is True by default and it's a boolean value setting it as false would give you timestamp relative to custom epoch as TAI
+    custom_epoch_as_tt: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to custom epoch as TT
+    custom_epoch: this option is None by default and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    input_tt: this one is by default false, which is when you wanna your input to be in TT, boolean
+    output_tt: this one is by default false, which is when you wanna your output to be in TT, boolean
+    """
+    return td1._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt)/60
+def ctminutes(d,count_ls_param=True, UTDLS=False, input_utc=True,unix_epoch=False,custom_epoch_as_utc=True,custom_epoch_as_tt=False,custom_epoch=None,input_tt=False,output_tt=False):
+    """this function give the date as timestamp in minutes, fractionals version
+    d: is the date and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    count_ls_param: enabling this would count leap-seconds, boolean
+    UTDLS: enabling this is useless in all cases except when count_ls_param is True, and it would fetch a list of updated leap seconds from the internet, boolean
+    input_utc: this one is by default true, which is when your input is in the UTC system, if it's not make this parameter false
+    and your dates would be considered as TAI input, boolean
+    unix_epoch: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to unix epoch
+    custom_epoch_as_utc: this option is True by default and it's a boolean value setting it as false would give you timestamp relative to custom epoch as TAI
+    custom_epoch_as_tt: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to custom epoch as TT
+    custom_epoch: this option is None by default and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    input_tt: this one is by default false, which is when you wanna your input to be in TT, boolean
+    output_tt: this one is by default false, which is when you wanna your output to be in TT, boolean
+    """
+    return td2._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt)/60
+def pthours(d,count_ls_param=True, UTDLS=False, input_utc=True,unix_epoch=False,custom_epoch_as_utc=True,custom_epoch_as_tt=False,custom_epoch=None,input_tt=False,output_tt=False):
+    """this function give the date as timestamp in hours, fractions version
+    d: is the date and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    count_ls_param: enabling this would count leap-seconds, boolean
+    UTDLS: enabling this is useless in all cases except when count_ls_param is True, and it would fetch a list of updated leap seconds from the internet, boolean
+    input_utc: this one is by default true, which is when your input is in the UTC system, if it's not make this parameter false
+    and your dates would be considered as TAI input, boolean
+    unix_epoch: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to unix epoch
+    custom_epoch_as_utc: this option is True by default and it's a boolean value setting it as false would give you timestamp relative to custom epoch as TAI
+    custom_epoch_as_tt: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to custom epoch as TT
+    custom_epoch: this option is None by default and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    input_tt: this one is by default false, which is when you wanna your input to be in TT, boolean
+    output_tt: this one is by default false, which is when you wanna your output to be in TT, boolean
+    """
+    return td1._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt)/3600
+def cthours(d,count_ls_param=True, UTDLS=False, input_utc=True,unix_epoch=False,custom_epoch_as_utc=True,custom_epoch_as_tt=False,custom_epoch=None,input_tt=False,output_tt=False):
+    """this function give the date as timestamp in hours, fractionals version
+    d: is the date and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    count_ls_param: enabling this would count leap-seconds, boolean
+    UTDLS: enabling this is useless in all cases except when count_ls_param is True, and it would fetch a list of updated leap seconds from the internet, boolean
+    input_utc: this one is by default true, which is when your input is in the UTC system, if it's not make this parameter false
+    and your dates would be considered as TAI input, boolean
+    unix_epoch: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to unix epoch
+    custom_epoch_as_utc: this option is True by default and it's a boolean value setting it as false would give you timestamp relative to custom epoch as TAI
+    custom_epoch_as_tt: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to custom epoch as TT
+    custom_epoch: this option is None by default and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    input_tt: this one is by default false, which is when you wanna your input to be in TT, boolean
+    output_tt: this one is by default false, which is when you wanna your output to be in TT, boolean
+    """
+    return td2._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt)/3600
+def pcdays(d,count_ls_param=True, UTDLS=False, input_utc=True,unix_epoch=False,custom_epoch_as_utc=True,custom_epoch_as_tt=False,custom_epoch=None,input_tt=False,output_tt=False):
+    """this function give the date as timestamp in days, fractions version
+    d: is the date and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    count_ls_param: enabling this would count leap-seconds, boolean
+    UTDLS: enabling this is useless in all cases except when count_ls_param is True, and it would fetch a list of updated leap seconds from the internet, boolean
+    input_utc: this one is by default true, which is when your input is in the UTC system, if it's not make this parameter false
+    and your dates would be considered as TAI input, boolean
+    unix_epoch: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to unix epoch
+    custom_epoch_as_utc: this option is True by default and it's a boolean value setting it as false would give you timestamp relative to custom epoch as TAI
+    custom_epoch_as_tt: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to custom epoch as TT
+    custom_epoch: this option is None by default and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    input_tt: this one is by default false, which is when you wanna your input to be in TT, boolean
+    output_tt: this one is by default false, which is when you wanna your output to be in TT, boolean
+    """
+    return td1._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt)/86400
+def ctdays(d,count_ls_param=True, UTDLS=False, input_utc=True,unix_epoch=False,custom_epoch_as_utc=True,custom_epoch_as_tt=False,custom_epoch=None,input_tt=False,output_tt=False):
+    """this function give the date as timestamp in days, fractionals version
+    d: is the date and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    count_ls_param: enabling this would count leap-seconds, boolean
+    UTDLS: enabling this is useless in all cases except when count_ls_param is True, and it would fetch a list of updated leap seconds from the internet, boolean
+    input_utc: this one is by default true, which is when your input is in the UTC system, if it's not make this parameter false
+    and your dates would be considered as TAI input, boolean
+    unix_epoch: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to unix epoch
+    custom_epoch_as_utc: this option is True by default and it's a boolean value setting it as false would give you timestamp relative to custom epoch as TAI
+    custom_epoch_as_tt: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to custom epoch as TT
+    custom_epoch: this option is None by default and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    input_tt: this one is by default false, which is when you wanna your input to be in TT, boolean
+    output_tt: this one is by default false, which is when you wanna your output to be in TT, boolean
+    """
+    return td2._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt)/86400
+def ptweeks(d,count_ls_param=True, UTDLS=False, input_utc=True,unix_epoch=False,custom_epoch_as_utc=True,custom_epoch_as_tt=False,custom_epoch=None,input_tt=False,output_tt=False):
+    """this function give the date as timestamp in weeks, fractions version
+    d: is the date and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    count_ls_param: enabling this would count leap-seconds, boolean
+    UTDLS: enabling this is useless in all cases except when count_ls_param is True, and it would fetch a list of updated leap seconds from the internet, boolean
+    input_utc: this one is by default true, which is when your input is in the UTC system, if it's not make this parameter false
+    and your dates would be considered as TAI input, boolean
+    unix_epoch: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to unix epoch
+    custom_epoch_as_utc: this option is True by default and it's a boolean value setting it as false would give you timestamp relative to custom epoch as TAI
+    custom_epoch_as_tt: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to custom epoch as TT
+    custom_epoch: this option is None by default and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    input_tt: this one is by default false, which is when you wanna your input to be in TT, boolean
+    output_tt: this one is by default false, which is when you wanna your output to be in TT, boolean
+    """
+    return td1._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt)/(86400 * 7)
+def ctweeks(d,count_ls_param=True, UTDLS=False, input_utc=True,unix_epoch=False,custom_epoch_as_utc=True,custom_epoch_as_tt=False,custom_epoch=None,input_tt=False,output_tt=False):
+    """this function give the date as timestamp in weeks, fractionals version
+    d: is the date and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    count_ls_param: enabling this would count leap-seconds, boolean
+    UTDLS: enabling this is useless in all cases except when count_ls_param is True, and it would fetch a list of updated leap seconds from the internet, boolean
+    input_utc: this one is by default true, which is when your input is in the UTC system, if it's not make this parameter false
+    and your dates would be considered as TAI input, boolean
+    unix_epoch: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to unix epoch
+    custom_epoch_as_utc: this option is True by default and it's a boolean value setting it as false would give you timestamp relative to custom epoch as TAI
+    custom_epoch_as_tt: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to custom epoch as TT
+    custom_epoch: this option is None by default and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    input_tt: this one is by default false, which is when you wanna your input to be in TT, boolean
+    output_tt: this one is by default false, which is when you wanna your output to be in TT, boolean
+    """
+    return td2._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt)/(86400 * 7)
+def ptmonths(d,count_ls_param=True, UTDLS=False, input_utc=True,unix_epoch=False,custom_epoch_as_utc=True,custom_epoch_as_tt=False,custom_epoch=None,input_tt=False,output_tt=False,month_unit=0,use_date_in_leapyears_checking=False,leap_year=False,year_for_leapyears_checking=None):
+    """this function give the date as timestamp in months, fractions version
+    d: is the date and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    count_ls_param: enabling this would count leap-seconds, boolean
+    UTDLS: enabling this is useless in all cases except when count_ls_param is True, and it would fetch a list of updated leap seconds from the internet, boolean
+    input_utc: this one is by default true, which is when your input is in the UTC system, if it's not make this parameter false
+    and your dates would be considered as TAI input, boolean
+    unix_epoch: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to unix epoch
+    custom_epoch_as_utc: this option is True by default and it's a boolean value setting it as false would give you timestamp relative to custom epoch as TAI
+    custom_epoch_as_tt: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to custom epoch as TT
+    custom_epoch: this option is None by default and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    input_tt: this one is by default false, which is when you wanna your input to be in TT, boolean
+    output_tt: this one is by default false, which is when you wanna your output to be in TT, boolean
+    month_unit: is what month you chose to be your unit, like how many junes or how many octobers, it's value corresponds to month it represents, it's an integer
+    use_date_in_leapyears_checking: this option is False by default and it's a boolean value setting it as true would make the function use the date in leapyears checking
+    leap_year: if the year is a leap year or not , useful to determine February's value
+    year_for_leapyears_checking: it's an integer value, that would be used instead of using the year in starting value to know if to consider
+    the year as a leap year or a normal one
+    """
+    return td1._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt) / td1._get_month_seconds(d[0], d[1], month_unit, td1.is_leap((d[0] if use_date_in_leapyears_checking else year_for_leapyears_checking), leap_year))
+def ctmonths(d,count_ls_param=True, UTDLS=False, input_utc=True,unix_epoch=False,custom_epoch_as_utc=True,custom_epoch_as_tt=False,custom_epoch=None,input_tt=False,output_tt=False,month_unit=0,use_date_in_leapyears_checking=False,leap_year=False,year_for_leapyears_checking=None):
+    """this function give the date as timestamp in months, fractionals version
+    d: is the date and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    count_ls_param: enabling this would count leap-seconds, boolean
+    UTDLS: enabling this is useless in all cases except when count_ls_param is True, and it would fetch a list of updated leap seconds from the internet, boolean
+    input_utc: this one is by default true, which is when your input is in the UTC system, if it's not make this parameter false
+    and your dates would be considered as TAI input, boolean
+    unix_epoch: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to unix epoch
+    custom_epoch_as_utc: this option is True by default and it's a boolean value setting it as false would give you timestamp relative to custom epoch as TAI
+    custom_epoch_as_tt: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to custom epoch as TT
+    custom_epoch: this option is None by default and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    input_tt: this one is by default false, which is when you wanna your input to be in TT, boolean
+    output_tt: this one is by default false, which is when you wanna your output to be in TT, boolean
+    month_unit: is what month you chose to be your unit, like how many junes or how many octobers, it's value corresponds to month it represents, it's an integer
+    use_date_in_leapyears_checking: this option is False by default and it's a boolean value setting it as true would make the function use the date in leapyears checking
+    leap_year: if the year is a leap year or not , useful to determine February's value
+    year_for_leapyears_checking: it's an integer value, that would be used instead of using the year in starting value to know if to consider
+    the year as a leap year or a normal one
+    """
+    return td2._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt) / td2._get_month_seconds(d[0], d[1], month_unit, td2.is_leap((d[0] if use_date_in_leapyears_checking else year_for_leapyears_checking), leap_year))
+def ptyears(d, count_ls_param=True, UTDLS=False, input_utc=True, unix_epoch=False, custom_epoch_as_utc=True, custom_epoch_as_tt=False,custom_epoch=None, input_tt=False, output_tt=False,uniform_year=False, tropical_year=False, custom_year=None, year_for_leapyear_checking=None):
+    """this function give the date as timestamp in years, fractions version
+    d: is the date and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    count_ls_param: enabling this would count leap-seconds, boolean
+    UTDLS: enabling this is useless in all cases except when count_ls_param is True, and it would fetch a list of updated leap seconds from the internet, boolean
+    input_utc: this one is by default true, which is when your input is in the UTC system, if it's not make this parameter false
+    and your dates would be considered as TAI input, boolean
+    unix_epoch: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to unix epoch
+    custom_epoch_as_utc: this option is True by default and it's a boolean value setting it as false would give you timestamp relative to custom epoch as TAI
+    custom_epoch_as_tt: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to custom epoch as TT
+    custom_epoch: this option is None by default and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    input_tt: this one is by default false, which is when you wanna your input to be in TT, boolean
+    output_tt: this one is by default false, which is when you wanna your output to be in TT, boolean
+    uniform_year: this option is False by default and it's a boolean value setting it as true would make the function use the uniform year
+    tropical_year: this option is False by default and it's a boolean value setting it as true would make the function use the tropical year
+    custom_year: this option is False by default and it's a boolean value setting it as true would make the function use the custom year
+    year_for_leapyears_checking: it's an integer value, that would be used instead of using the year in starting value to know if to consider
+    the year as a leap year or a normal one
+    """
+    return td1._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt)/ td1._seconds_in_year(d[0] if year_for_leapyear_checking is None else year_for_leapyear_checking, uniform_year=uniform_year, tropical_year=tropical_year, custom_year=custom_year)
+def ctyears(d, count_ls_param=True, UTDLS=False, input_utc=True, unix_epoch=False, custom_epoch_as_utc=True, custom_epoch_as_tt=False,custom_epoch=None, input_tt=False, output_tt=False,uniform_year=False, tropical_year=False, custom_year=None, year_for_leapyear_checking=None):
+    """this function give the date as timestamp in years, fractionals version
+    d: is the date and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    count_ls_param: enabling this would count leap-seconds, boolean
+    UTDLS: enabling this is useless in all cases except when count_ls_param is True, and it would fetch a list of updated leap seconds from the internet, boolean
+    input_utc: this one is by default true, which is when your input is in the UTC system, if it's not make this parameter false
+    and your dates would be considered as TAI input, boolean
+    unix_epoch: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to unix epoch
+    custom_epoch_as_utc: this option is True by default and it's a boolean value setting it as false would give you timestamp relative to custom epoch as TAI
+    custom_epoch_as_tt: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to custom epoch as TT
+    custom_epoch: this option is None by default and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    input_tt: this one is by default false, which is when you wanna your input to be in TT, boolean
+    output_tt: this one is by default false, which is when you wanna your output to be in TT, boolean
+    uniform_year: this option is False by default and it's a boolean value setting it as true would make the function use the uniform year
+    tropical_year: this option is False by default and it's a boolean value setting it as true would make the function use the tropical year
+    custom_year: this option is False by default and it's a boolean value setting it as true would make the function use the custom year
+    year_for_leapyears_checking: it's an integer value, that would be used instead of using the year in starting value to know if to consider
+    the year as a leap year or a normal one
+    """
+    return td2._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt)/ td2._seconds_in_year(d[0] if year_for_leapyear_checking is None else year_for_leapyear_checking, uniform_year=uniform_year, tropical_year=tropical_year, custom_year=custom_year)
+def ptdecades(d, count_ls_param=True, UTDLS=False, input_utc=True, unix_epoch=False, custom_epoch_as_utc=True, custom_epoch_as_tt=False,custom_epoch=None, input_tt=False, output_tt=False,uniform_year=False, tropical_year=False, custom_year=None, year_for_leapyear_checking=None):
+    """this function give the date as timestamp in decades, fractions version
+    d: is the date and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    count_ls_param: enabling this would count leap-seconds, boolean
+    UTDLS: enabling this is useless in all cases except when count_ls_param is True, and it would fetch a list of updated leap seconds from the internet, boolean
+    input_utc: this one is by default true, which is when your input is in the UTC system, if it's not make this parameter false
+    and your dates would be considered as TAI input, boolean
+    unix_epoch: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to unix epoch
+    custom_epoch_as_utc: this option is True by default and it's a boolean value setting it as false would give you timestamp relative to custom epoch as TAI
+    custom_epoch_as_tt: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to custom epoch as TT
+    custom_epoch: this option is None by default and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    input_tt: this one is by default false, which is when you wanna your input to be in TT, boolean
+    output_tt: this one is by default false, which is when you wanna your output to be in TT, boolean
+    uniform_year: this option is False by default and it's a boolean value setting it as true would make the function use the uniform year
+    tropical_year: this option is False by default and it's a boolean value setting it as true would make the function use the tropical year
+    custom_year: this option is False by default and it's a boolean value setting it as true would make the function use the custom year
+    year_for_leapyears_checking: it's an integer value, that would be used instead of using the year in starting value to know if to consider
+    the year as a leap year or a normal one
+    """
+    return (
             td1._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt) / td1._seconds_in_year(d[0] if year_for_leapyear_checking is None else year_for_leapyear_checking, uniform_year=uniform_year, tropical_year=tropical_year, custom_year=custom_year))/10
-def ctdecades(d, count_ls_param=True, UTDLS=False, input_utc=True, unix_epoch=False, custom_epoch_as_utc=True, custom_epoch_as_tt=False,custom_epoch=None, input_tt=False, output_tt=False,uniform_year=False, tropical_year=False, custom_year=None, year_for_leapyear_checking=None): return (
-            td2._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt) / td2._seconds_in_year(d[0] if year_for_leapyear_checking is None else year_for_leapyear_checking, uniform_year=uniform_year, tropical_year=tropical_year, custom_year=custom_year))/10
-def ptcenturies(d, count_ls_param=True, UTDLS=False, input_utc=True, unix_epoch=False, custom_epoch_as_utc=True, custom_epoch_as_tt=False,custom_epoch=None, input_tt=False, output_tt=False,uniform_year=False, tropical_year=False, custom_year=None, year_for_leapyear_checking=None): return (
-            td1._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt) / td1._seconds_in_year(d[0] if year_for_leapyear_checking is None else year_for_leapyear_checking, uniform_year=uniform_year, tropical_year=tropical_year, custom_year=custom_year))/100
-def ctcenturies(d, count_ls_param=True, UTDLS=False, input_utc=True, unix_epoch=False, custom_epoch_as_utc=True, custom_epoch_as_tt=False,custom_epoch=None, input_tt=False, output_tt=False,uniform_year=False, tropical_year=False, custom_year=None, year_for_leapyear_checking=None): return (
-            td2._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt) / td2._seconds_in_year(d[0] if year_for_leapyear_checking is None else year_for_leapyear_checking, uniform_year=uniform_year, tropical_year=tropical_year, custom_year=custom_year))/100
-def ptmillennia(d, count_ls_param=True, UTDLS=False, input_utc=True, unix_epoch=False, custom_epoch_as_utc=True, custom_epoch_as_tt=False,custom_epoch=None, input_tt=False, output_tt=False,uniform_year=False, tropical_year=False, custom_year=None, year_for_leapyear_checking=None): return (
-            td1._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt) / td1._seconds_in_year(d[0] if year_for_leapyear_checking is None else year_for_leapyear_checking, uniform_year=uniform_year, tropical_year=tropical_year, custom_year=custom_year))/1000
-def ctmillennia(d, count_ls_param=True, UTDLS=False, input_utc=True, unix_epoch=False, custom_epoch_as_utc=True, custom_epoch_as_tt=False,custom_epoch=None, input_tt=False, output_tt=False,uniform_year=False, tropical_year=False, custom_year=None, year_for_leapyear_checking=None): return (
-            td2._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt) / td2._seconds_in_year(d[0] if year_for_leapyear_checking is None else year_for_leapyear_checking, uniform_year=uniform_year, tropical_year=tropical_year, custom_year=custom_year))/1000
-def ptsubseconds(d,subunit=10**6,count_ls_param=True, UTDLS=False, input_utc=True,unix_epoch=False,custom_epoch_as_utc=True,custom_epoch_as_tt=False,custom_epoch=None,input_tt=False,output_tt=False): return td1._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt)/(1 / subunit)
-def ctsubseconds(d,subunit=10**6,count_ls_param=True, UTDLS=False, input_utc=True,unix_epoch=False,custom_epoch_as_utc=True,custom_epoch_as_tt=False,custom_epoch=None,input_tt=False,output_tt=False): return td2._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt)/(1 / subunit)
-def pmonthscal(s,e): return  td1._monthscalner(s, e)
-def cmonthscal(s,e): return  td2._monthscalner(s, e)
-def pyearscal(s,e): return  td1._yearscalner(s, e)
-def cyearscal(s,e): return  td2._yearscalner(s, e)
+def ctdecades(d, count_ls_param=True, UTDLS=False, input_utc=True, unix_epoch=False, custom_epoch_as_utc=True, custom_epoch_as_tt=False,custom_epoch=None, input_tt=False, output_tt=False,uniform_year=False, tropical_year=False, custom_year=None, year_for_leapyear_checking=None):
+    """this function give the date as timestamp in decades, fractionals version
+    d: is the date and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    count_ls_param: enabling this would count leap-seconds, boolean
+    UTDLS: enabling this is useless in all cases except when count_ls_param is True, and it would fetch a list of updated leap seconds from the internet, boolean
+    input_utc: this one is by default true, which is when your input is in the UTC system, if it's not make this parameter false
+    and your dates would be considered as TAI input, boolean
+    unix_epoch: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to unix epoch
+    custom_epoch_as_utc: this option is True by default and it's a boolean value setting it as false would give you timestamp relative to custom epoch as TAI
+    custom_epoch_as_tt: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to custom epoch as TT
+    custom_epoch: this option is None by default and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    input_tt: this one is by default false, which is when you wanna your input to be in TT, boolean
+    output_tt: this one is by default false, which is when you wanna your output to be in TT, boolean
+    uniform_year: this option is False by default and it's a boolean value setting it as true would make the function use the uniform year
+    tropical_year: this option is False by default and it's a boolean value setting it as true would make the function use the tropical year
+    custom_year: this option is False by default and it's a boolean value setting it as true would make the function use the custom year
+    year_for_leapyears_checking: it's an integer value, that would be used instead of using the year in starting value to know if to consider
+    the year as a leap year or a normal one
+    """
+    return (td2._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt) / td2._seconds_in_year(d[0] if year_for_leapyear_checking is None else year_for_leapyear_checking, uniform_year=uniform_year, tropical_year=tropical_year, custom_year=custom_year))/10
+def ptcenturies(d, count_ls_param=True, UTDLS=False, input_utc=True, unix_epoch=False, custom_epoch_as_utc=True, custom_epoch_as_tt=False,custom_epoch=None, input_tt=False, output_tt=False,uniform_year=False, tropical_year=False, custom_year=None, year_for_leapyear_checking=None):
+    """this function give the date as timestamp in centuries, fractions version
+    d: is the date and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    count_ls_param: enabling this would count leap-seconds, boolean
+    UTDLS: enabling this is useless in all cases except when count_ls_param is True, and it would fetch a list of updated leap seconds from the internet, boolean
+    input_utc: this one is by default true, which is when your input is in the UTC system, if it's not make this parameter false
+    and your dates would be considered as TAI input, boolean
+    unix_epoch: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to unix epoch
+    custom_epoch_as_utc: this option is True by default and it's a boolean value setting it as false would give you timestamp relative to custom epoch as TAI
+    custom_epoch_as_tt: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to custom epoch as TT
+    custom_epoch: this option is None by default and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    input_tt: this one is by default false, which is when you wanna your input to be in TT, boolean
+    output_tt: this one is by default false, which is when you wanna your output to be in TT, boolean
+    uniform_year: this option is False by default and it's a boolean value setting it as true would make the function use the uniform year
+    tropical_year: this option is False by default and it's a boolean value setting it as true would make the function use the tropical year
+    custom_year: this option is False by default and it's a boolean value setting it as true would make the function use the custom year
+    year_for_leapyears_checking: it's an integer value, that would be used instead of using the year in starting value to know if to consider
+    the year as a leap year or a normal one
+    """
+    return (td1._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt) / td1._seconds_in_year(d[0] if year_for_leapyear_checking is None else year_for_leapyear_checking, uniform_year=uniform_year, tropical_year=tropical_year, custom_year=custom_year))/100
+def ctcenturies(d, count_ls_param=True, UTDLS=False, input_utc=True, unix_epoch=False, custom_epoch_as_utc=True, custom_epoch_as_tt=False,custom_epoch=None, input_tt=False, output_tt=False,uniform_year=False, tropical_year=False, custom_year=None, year_for_leapyear_checking=None):
+    """this function give the date as timestamp in centuries, fractionals version
+    d: is the date and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    count_ls_param: enabling this would count leap-seconds, boolean
+    UTDLS: enabling this is useless in all cases except when count_ls_param is True, and it would fetch a list of updated leap seconds from the internet, boolean
+    input_utc: this one is by default true, which is when your input is in the UTC system, if it's not make this parameter false
+    and your dates would be considered as TAI input, boolean
+    unix_epoch: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to unix epoch
+    custom_epoch_as_utc: this option is True by default and it's a boolean value setting it as false would give you timestamp relative to custom epoch as TAI
+    custom_epoch_as_tt: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to custom epoch as TT
+    custom_epoch: this option is None by default and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    input_tt: this one is by default false, which is when you wanna your input to be in TT, boolean
+    output_tt: this one is by default false, which is when you wanna your output to be in TT, boolean
+    uniform_year: this option is False by default and it's a boolean value setting it as true would make the function use the uniform year
+    tropical_year: this option is False by default and it's a boolean value setting it as true would make the function use the tropical year
+    custom_year: this option is False by default and it's a boolean value setting it as true would make the function use the custom year
+    year_for_leapyears_checking: it's an integer value, that would be used instead of using the year in starting value to know if to consider
+    the year as a leap year or a normal one
+    """
+    return (td2._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt) / td2._seconds_in_year(d[0] if year_for_leapyear_checking is None else year_for_leapyear_checking, uniform_year=uniform_year, tropical_year=tropical_year, custom_year=custom_year))/100
+def ptmillennia(d, count_ls_param=True, UTDLS=False, input_utc=True, unix_epoch=False, custom_epoch_as_utc=True, custom_epoch_as_tt=False,custom_epoch=None, input_tt=False, output_tt=False,uniform_year=False, tropical_year=False, custom_year=None, year_for_leapyear_checking=None):
+    """this function give the date as timestamp in millennia, fractions version
+    d: is the date and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    count_ls_param: enabling this would count leap-seconds, boolean
+    UTDLS: enabling this is useless in all cases except when count_ls_param is True, and it would fetch a list of updated leap seconds from the internet, boolean
+    input_utc: this one is by default true, which is when your input is in the UTC system, if it's not make this parameter false
+    and your dates would be considered as TAI input, boolean
+    unix_epoch: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to unix epoch
+    custom_epoch_as_utc: this option is True by default and it's a boolean value setting it as false would give you timestamp relative to custom epoch as TAI
+    custom_epoch_as_tt: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to custom epoch as TT
+    custom_epoch: this option is None by default and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    input_tt: this one is by default false, which is when you wanna your input to be in TT, boolean
+    output_tt: this one is by default false, which is when you wanna your output to be in TT, boolean
+    uniform_year: this option is False by default and it's a boolean value setting it as true would make the function use the uniform year
+    tropical_year: this option is False by default and it's a boolean value setting it as true would make the function use the tropical year
+    custom_year: this option is False by default and it's a boolean value setting it as true would make the function use the custom year
+    year_for_leapyears_checking: it's an integer value, that would be used instead of using the year in starting value to know if to consider
+    the year as a leap year or a normal one
+    """
+    return (td1._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt) / td1._seconds_in_year(d[0] if year_for_leapyear_checking is None else year_for_leapyear_checking, uniform_year=uniform_year, tropical_year=tropical_year, custom_year=custom_year))/1000
+def ctmillennia(d, count_ls_param=True, UTDLS=False, input_utc=True, unix_epoch=False, custom_epoch_as_utc=True, custom_epoch_as_tt=False,custom_epoch=None, input_tt=False, output_tt=False,uniform_year=False, tropical_year=False, custom_year=None, year_for_leapyear_checking=None): 
+    """this function give the date as timestamp in millennia, fractionals version
+    d: is the date and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    count_ls_param: enabling this would count leap-seconds, boolean
+    UTDLS: enabling this is useless in all cases except when count_ls_param is True, and it would fetch a list of updated leap seconds from the internet, boolean
+    input_utc: this one is by default true, which is when your input is in the UTC system, if it's not make this parameter false
+    and your dates would be considered as TAI input, boolean
+    unix_epoch: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to unix epoch
+    custom_epoch_as_utc: this option is True by default and it's a boolean value setting it as false would give you timestamp relative to custom epoch as TAI
+    custom_epoch_as_tt: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to custom epoch as TT
+    custom_epoch: this option is None by default and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    input_tt: this one is by default false, which is when you wanna your input to be in TT, boolean
+    output_tt: this one is by default false, which is when you wanna your output to be in TT, boolean
+    uniform_year: this option is False by default and it's a boolean value setting it as true would make the function use the uniform year
+    tropical_year: this option is False by default and it's a boolean value setting it as true would make the function use the tropical year
+    custom_year: this option is False by default and it's a boolean value setting it as true would make the function use the custom year
+    year_for_leapyears_checking: it's an integer value, that would be used instead of using the year in starting value to know if to consider
+    the year as a leap year or a normal one
+    """
+    return (td2._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt) / td2._seconds_in_year(d[0] if year_for_leapyear_checking is None else year_for_leapyear_checking, uniform_year=uniform_year, tropical_year=tropical_year, custom_year=custom_year))/1000
+def ptsubseconds(d,subunit=10**6,count_ls_param=True, UTDLS=False, input_utc=True,unix_epoch=False,custom_epoch_as_utc=True,custom_epoch_as_tt=False,custom_epoch=None,input_tt=False,output_tt=False):
+    """this function give the date as timestamp in subseconds, fractions version
+    d: is the date and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    subunit: basically is the number that seconds would be divided upon to get difference in as specific unit like 10**6 for micro or 10**9 nano seconds, the default is 10**6 and it's an integer
+    count_ls_param: enabling this would count leap-seconds, boolean
+    UTDLS: enabling this is useless in all cases except when count_ls_param is True, and it would fetch a list of updated leap seconds from the internet, boolean
+    input_utc: this one is by default true, which is when your input is in the UTC system, if it's not make this parameter false
+    and your dates would be considered as TAI input, boolean
+    unix_epoch: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to unix epoch
+    custom_epoch_as_utc: this option is True by default and it's a boolean value setting it as false would give you timestamp relative to custom epoch as TAI
+    custom_epoch_as_tt: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to custom epoch as TT
+    custom_epoch: this option is None by default and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    input_tt: this one is by default false, which is when you wanna your input to be in TT, boolean
+    output_tt: this one is by default false, which is when you wanna your output to be in TT, boolean
+    """
+    return td1._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt)/(1 / subunit)
+def ctsubseconds(d,subunit=10**6,count_ls_param=True, UTDLS=False, input_utc=True,unix_epoch=False,custom_epoch_as_utc=True,custom_epoch_as_tt=False,custom_epoch=None,input_tt=False,output_tt=False):
+    """this function give the date as timestamp in subseconds, fractionals version
+    d: is the date and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    subunit: basically is the number that seconds would be divided upon to get difference in as specific unit like 10**6 for micro or 10**9 nano seconds, the default is 10**6 and it's an integer
+    count_ls_param: enabling this would count leap-seconds, boolean
+    UTDLS: enabling this is useless in all cases except when count_ls_param is True, and it would fetch a list of updated leap seconds from the internet, boolean
+    input_utc: this one is by default true, which is when your input is in the UTC system, if it's not make this parameter false
+    and your dates would be considered as TAI input, boolean
+    unix_epoch: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to unix epoch
+    custom_epoch_as_utc: this option is True by default and it's a boolean value setting it as false would give you timestamp relative to custom epoch as TAI
+    custom_epoch_as_tt: this option is False by default and it's a boolean value setting it as true would give you timestamp relative to custom epoch as TT
+    custom_epoch: this option is None by default and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    input_tt: this one is by default false, which is when you wanna your input to be in TT, boolean
+    output_tt: this one is by default false, which is when you wanna your output to be in TT, boolean
+    """
+    return td2._timestampinner(*d, count_ls_param=count_ls_param, UTDLS=UTDLS, input_utc=input_utc, unix_epoch=unix_epoch, custom_epoch_as_utc=custom_epoch_as_utc, custom_epoch_as_tt=custom_epoch_as_tt, custom_epoch=custom_epoch, input_tt=input_tt, output_tt=output_tt)/(1 / subunit)
+def pmonthscal(s,e):
+    """this function give the number of months between two dates, fractions version
+    s: is the first date(starting date) and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    e: is the second date(ending date) and it has same format and data type as s
+    """
+    return  td1._monthscalner(s, e)
+def cmonthscal(s,e):
+    """this function give the number of months between two dates, fractionals version
+    s: is the first date(starting date) and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    e: is the second date(ending date) and it has same format and data type as s
+    """
+    return  td2._monthscalner(s, e)
+def pyearscal(s,e):
+    """this function give the number of years between two dates, fractions version
+    s: is the first date(starting date) and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    e: is the second date(ending date) and it has same format and data type as s
+    """
+    return  td1._yearscalner(s, e)
+def cyearscal(s,e):
+    """this function give the number of years between two dates, fractionals version
+    s: is the first date(starting date) and it's a list made off: [Y(year),M(month),D(day),H(hour),MI(minute),S(second),SS(sub-seconds)] and all of these items integers
+    e: is the second date(ending date) and it has same format and data type as s
+    """
+    return  td2._yearscalner(s, e)

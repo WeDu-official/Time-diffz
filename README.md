@@ -8,13 +8,7 @@
 **\*1: timediffz wasn't tested on any operating system expect arch linux 
 but mostly it can work on windows being that the library does not have any platform specific needs**
 
-**timediffz** is an EXTREMELY ACCURATE timestamper and in calculating the differences between dates, IT DOES NOT USE ANY APPROXIMATIONS CALCULATES
-EVERYTHING EXACTLY AS IT IS and nearly no for/while loops at all to provide fast performance(literally you would need less than 100 microseconds in somecases to get the amount
-of months between the year 2025 and the end of the universe(year one googol), and it uses fractions based numbers to keep the numbers
-exact no floating point precision loss, and it has been made for scientists and systems as the most accurate system for its own job possible,
-note: in case of tropical year because of uncontrolled amount of parameters to count it to an unreliable level the J2000 is used but it's unreliable for extremely
-far dates, and doc-strings for non differentiational operations are not made yet, plus future options like option to add a small amount to days like part of a second
-so it can help to correct the issue of gregorian shifting slowly a whole day each 3000 years or so.
+**timediffz** is an EXTREMELY ACCURATE timestamper and in calculating the differences between dates, IT DOES NOT USE ANY APPROXIMATIONS CALCULATES EVERYTHING EXACTLY AS IT IS and nearly no for/while loops at all to provide fast performance literally you would need less than 100 microseconds in somecases to get the amount of months between the year 2025 and the end of the universe(year one googol), and it uses fractions based numbers to keep the numbers exact no floating point precision loss, and it has been made for scientists and systems as the most accurate system for its own job possible, note: in case of tropical year because of uncontrolled amount of parameters to count it to an unreliable level the J2000 is used but it's unreliable for extremely far dates but you can if you want to use new or other tropical dates via custom year parameter
 
 THIS LIBRARY HAS TWO MODES THE TB1 MODE OR NORMAL ONE WHICH USES STANDARD LIBRARIES
 AND REQUESTS ONLY, BUT EVEN THOUGH IT'S FAST BUT YOU CAN USE THE SECOND MODE THAT
