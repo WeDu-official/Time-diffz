@@ -1,8 +1,8 @@
 import warnings
 try: import td1inner as td1
-except Exception: warnings.warn(f"timediffz 1.0.6 (fractions mode) failed to load correctly :( using any fractions mode related function WOULD give an error and fall because of this, for fix do pip install td1inner")
+except Exception: warnings.warn(f"timediffz 1.0.8 (fractions mode) failed to load correctly :( using any fractions mode related function WOULD give an error and fall because of this, for fix do pip install td1inner")
 try: import td2inner as td2
-except Exception: warnings.warn(f"""timediffz 1.0.6 (fractionals mode) failed to load correctly :( using any fractionals mode related function WOULD give an error and fall because of this, to fix either/both do steps in fractionalstd2inner readme at this
+except Exception: warnings.warn(f"""timediffz 1.0.8 (fractionals mode) failed to load correctly :( using any fractionals mode related function WOULD give an error and fall because of this, to fix either/both do steps in fractionalstd2inner readme at this
 link 'https://github.com/WeDu-official/fractionalstd2inner' and install td2inner via 'pip install td2inner' """)
 def pdiff (s,e,tz_s=0,tz_e=0,unit_factor=1,count_ls_param=True,UTDLS=False,input_utc=True,output_tt=False,apply_gps_rel_s=False,
     apply_gps_rel_e=False,altitude_m_s=20200000,altitude_m_e=20200000,v_m_s_s=3874,v_m_s_e=3874):
