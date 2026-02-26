@@ -1,7 +1,7 @@
 <img width="504" alt="time_diffz-high-resolution-logo-transparent" src="https://github.com/user-attachments/assets/6d0285dd-6cdd-4ea1-804b-561b98b0bac2" />
 
 
-**timediffz** a library for timestamps and differences between dates
+**timediffz/Time_diffz** a library for timestamps and differences between dates
 
 **NOTE: timediffz ONLY work in almost any operating system(\*1) which can support python 3.10 and above**
 
