@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "timediffz"
-version = "1.0.8"
+version = "1.0.9"
 authors = [
   { name="WeDu-official", email="fplu.the.founder@gmail.com" },
 ]
@@ -12,8 +12,8 @@ dependencies = [
     "requests == 2.32.5",
     "cython==3.2.2",
     "setuptools==80.9.0",
-    "td1inner==1.0.7",
-    "td2inner==1.0.7"
+    "td1inner==1.0.8",
+    "td2inner==1.0.8"
 ]
 description = "a library for advanced and accurate timestamping and time differences"
 readme = "README.md"
