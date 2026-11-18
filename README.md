@@ -1,5 +1,4 @@
 <img width="504" alt="time_diffz-high-resolution-logo-transparent" src="https://github.com/user-attachments/assets/6d0285dd-6cdd-4ea1-804b-561b98b0bac2" />
-https://doi.org/10.5281/zenodo.24345075
 
 **timediffz/Time_diffz** a library for timestamps and differences between dates
 
@@ -32,6 +31,10 @@ to install use the following command(note installing the library in this way
 would install library requirements both main and optional):
 
 <code>pip install Timediffz</code>
+
+## DOI
+
+https://doi.org/10.5281/zenodo.24345075
 
 ## Contribute
 
