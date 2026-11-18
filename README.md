@@ -32,8 +32,7 @@ would install library requirements both main and optional):
 
 <code>pip install Timediffz</code>
 
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24345075.svg)](https://doi.org/10.5281/zenodo.24345075)
+<a href="https://doi.org/10.5281/zenodo.24345075"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.24345075.svg" alt="DOI"></a>
 
 ## Contribute
 
